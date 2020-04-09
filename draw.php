@@ -23,7 +23,6 @@ $formData = str_replace(',', '%2C', $formData);
 $formData = str_replace(']', '%5D', $formData);
 $formData = str_replace('#', '%23', $formData);
 
-var_dump($formData);
 $ch = curl_init();
 
 curl_setopt($ch, CURLOPT_URL, 'http://bigcanvasdemo.com/draw.php?submit=1');
