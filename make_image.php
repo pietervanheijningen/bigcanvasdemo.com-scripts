@@ -7,7 +7,7 @@ for ($overviewX = 0; $overviewX <= 19; $overviewX++) {
 
         for ($squareImgX = 0; $squareImgX <= 24; $squareImgX++) {
             for ($squareImgY = 0; $squareImgY <= 24; $squareImgY++) {
-                $imgData[] = getHexFromImgPixel(($overviewX * 25) + $squareImgX, ($overviewY * 25) + $squareImgY);
+                $imgData[] = getHexFromImgPixel(($overviewX * 25) + $squareImgY, ($overviewY * 25) + $squareImgX);
             }
         }
 
