@@ -12,7 +12,6 @@ for ($overviewX = 0; $overviewX <= 19; $overviewX++) {
         }
 
         drawSquare($overviewX, $overviewY, $imgData);
-        die();
     }
 }
 
