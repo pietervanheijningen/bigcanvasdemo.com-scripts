@@ -1,3 +1,19 @@
+#how to use
+
+clone the repo, cd into it, and then you can run these commands:
+
+**draw image (you can replace image.png)**
+```bash
+php make_image.php
+```
+
+**make board empty**
+```bash
+php make_empty.php
+```
+
+#attempts
+
 ## first try:
 ![](progress-images/progress1.png)
 
