@@ -9,11 +9,11 @@ if (isset($argv[3])) {
     for ($squareImgX = 0; $squareImgX <= 24; $squareImgX++) {
         for ($squareImgY = 0; $squareImgY <= 24; $squareImgY++) {
 
-            if (!isset($data[(4 * $squareImgY) + $squareImgX])) {
+            if (!isset($data[(25 * $squareImgY) + $squareImgX])) {
                 continue;
             }
 
-            $formData .= "&data[$squareImgX,$squareImgY]=" . $data[(4 * $squareImgY) + $squareImgX];
+            $formData .= "&data[$squareImgX,$squareImgY]=" . $data[(25 * $squareImgY) + $squareImgX];
         }
     }
 }
