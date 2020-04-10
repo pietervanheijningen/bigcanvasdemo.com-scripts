@@ -18,5 +18,5 @@ while (true) {
     $im = imagecreatefromjpeg("animation-frames/frame$newFrameId.jpeg");
     $i++;
 
-    usleep(250 * 1000);
+    sleep(2);
 }
