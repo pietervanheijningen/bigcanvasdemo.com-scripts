@@ -2,7 +2,7 @@
 
 clone the repo, cd into it, and then you can run these commands:
 
-**draw image (you can replace image.png (need to be 500x375, idk what will happen if it isnt))**
+**draw image (you can replace image.png (needs to be 500x375, idk what will happen if it isnt))**
 ```bash
 php make_image.php
 ```
