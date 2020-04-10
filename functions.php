@@ -22,5 +22,5 @@ function drawSquare($overviewX, $overviewY, $imgData)
     $imgDataAsJson = json_encode([
         "data" => $imgData
     ]);
-    exec("php draw.php $overviewX $overviewY '$imgDataAsJson' >> /dev/null &");
+    exec("php draw.php $overviewX $overviewY '$imgDataAsJson' >> draw.log &");
 }
