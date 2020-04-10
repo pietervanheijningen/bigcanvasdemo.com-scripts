@@ -2,6 +2,11 @@
 
 clone the repo, cd into it, and then you can run these commands:
 
+**show animaion, only thing that works now**
+```bash
+php make_animation (x cord) (y cord)
+```
+
 **draw image (you can replace image.png (needs to be 500x375, idk what will happen if it isnt))**
 ```bash
 php make_image.php
